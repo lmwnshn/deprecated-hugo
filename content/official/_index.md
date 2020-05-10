@@ -20,7 +20,7 @@ layout: simple
 ## Biography
 
 {{< rawhtml >}}
-<div class="flex items-center">
+<div class="flex-ns items-center">
 <div class="pr3">
 {{< /rawhtml >}}
 

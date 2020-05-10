@@ -16,7 +16,6 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  subtitle = "Wan Shen Lim, an incoming PhD student at Carnegie Mellon (SCS 2020)"
   favicon = "favicon.ico"
   description = "Personal website of Wan Shen Lim, an incoming PhD student at Carnegie Mellon."
   facebook = "https://facebook.com/lmwnshn"
