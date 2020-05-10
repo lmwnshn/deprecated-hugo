@@ -1,0 +1,20 @@
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="flex flex-column mw8 center justify-center items-center ph4">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+      {{- if .Params.toc -}}
+      	<div> 
+          <p class="f5 b mb3">Table of Contents</p>
+          {{ .TableOfContents | replaceRE "<a href=([^>]+)>" "<a class=\"link dim blue\" href=$1>" | safeHTML }}
+	  <hr>
+	</div>
+      {{ end }}
+
+      {{- .Content | replaceRE "<a href=([^>]+)>" "<a class=\"link\" href=$1>" | safeHTML -}}
+      </div>
+    </div>
+  </article>
+{{ end }}

@@ -1,0 +1,35 @@
+title = "Beep Boop"
+baseURL = "https://wanshenl.me"
+languageCode = "en-us"
+theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 25
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  subtitle = "Wan Shen Lim, an incoming PhD student at Carnegie Mellon (SCS 2020)"
+  favicon = "favicon.ico"
+  description = "Personal website of Wan Shen Lim, an incoming PhD student at Carnegie Mellon."
+  facebook = "https://facebook.com/lmwnshn"
+  twitter = "https://twitter.com/lmwnshn"
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/lmwnshn"
+  gitlab = ""
+  linkedin = "https://linkedin.com/in/lmwnshn"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  background_color_class = "bg-near-white"
+  recent_posts_number = 5
+  show_reading_time = "true"
+  custom_css = ["css/custom.css"]
