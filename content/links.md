@@ -17,6 +17,7 @@ Links to places that I go to sometimes.
 
 Just some sites that I'm aware of, in alphabetical-by-sitename order. Linking doesn't mean that I endorse their content or that they endorse mine.
 
+- [gyyu.github.io](https://gyyu.github.io/)
 - [jasonbak.co](https://jasonbak.co/)
 - [pranavkumar.me](https://pranavkumar.me/)
 - [varsosemblem.github.io](https://varsosemblem.github.io/)
