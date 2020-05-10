@@ -7,7 +7,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 25
-googleAnalytics = ""
+googleAnalytics = "UA-111788263-1"
 enableRobotsTXT = true
 
 [sitemap]

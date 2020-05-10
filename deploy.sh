@@ -4,7 +4,7 @@ set -e
 
 printf "Deploying updates to Github."
 
-hugo -t ananke
+HUGO_ENV=production hugo -t ananke
 cd public
 git add .
 
