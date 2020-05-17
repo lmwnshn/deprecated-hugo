@@ -14,6 +14,7 @@ A collection of hopefully useful stuff. No refunds, no warranties.
 - Some [TA teaching strategies](/blog/2018-06-23-scribble) which I think worked out
 - PhD application process and visit day [thoughts](/blog/2020-03-23-visit-day)
 - I wrote a reddit comment about the [CMU systems courses](https://old.reddit.com/r/cmu/comments/fxppfn/benefits_of_each_systems_course/fmy3ir3/) that I've taken.
+- Hopefully [useful](/tags/useful/) blog posts in general.
 
 # Notes
 
