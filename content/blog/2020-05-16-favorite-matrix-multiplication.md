@@ -1,5 +1,5 @@
 ---
-date: 2020-05-12
+date: 2020-05-16
 title: "Favorite matrix multiplication"
 summary: "linear algebra is cool"
 tags: ["cmu", "useful"]
