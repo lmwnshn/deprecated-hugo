@@ -62,7 +62,7 @@ Overall: heavy, sometimes death
 - **A** ☆ 15-445 Database Systems
 - **A** 70-364 Business Law
 
-Dropped: 15-330 \\
+Dropped: 15-330  
 Other commitments: database group, Microsoft lounge  
 Overall: heavy
 
