@@ -69,24 +69,27 @@ Wan Shen Lim is a first-year PhD student in the [Computer Science Department](ht
 
 ## Publications
 
-- 2018. On Supporting Efficient Snapshot Isolation for Hybrid Workloads with Multi-Versioned Indexes. Yihan Sun, Guy Blelloch, Wan Shen Lim, Andrew Pavlo. [PVLDB 2019](http://www.vldb.org/pvldb/vol13/p211-sun.pdf).
-
 {{< rawhtml >}}
+<ul class="list">
+<ol start="2019"><li>On Supporting Efficient Snapshot Isolation for Hybrid Workloads with Multi-Versioned Indexes. Yihan Sun, Guy Blelloch, Wan Shen Lim, Andrew Pavlo. <a href="https://www.vldb.org/pvldb/vol13/p211-sun.pdf">PVLDB 2019</a>.</li></ol>
+</ul>
 <hr class="bw1 b--black-10">
 {{< /rawhtml >}}
 
 ## Honors and Awards
 
-- 2020. Carnegie Mellon University. Senior Leadership Recognition.
-- 2018. Carnegie Mellon University. Summer Undergraduate Research Fellowship. Research with [Carnegie Mellon Database Group](https://db.cs.cmu.edu/) / [Professor Andy Pavlo](https://www.cs.cmu.edu/~pavlo/).
-- 2016. Ministry of Education, Brunei. Full ride scholarship to Carnegie Mellon University, USA. Approximately 150 scholarship recipients nationwide.
-- 2015. BruCERT ITPSS Cyber Battle (national cybersecurity CTF). [First place](https://www.itpss.com/News/2015/12102015.html).
-- 2014. Shing-Tung Yau High School Mathematics Awards. Semi-Finalist.
-- 2014. Singapore Science and Engineering Fair. [Gold award](https://www.nushigh.edu.sg/about-us/achievements/2014/academic-competitions/outstanding-achievements-at-singapore-science-and-engineering-fair-2014).
-- 2014. singpath (national high school coding competition). [First place](https://www.nushigh.edu.sg/about-us/achievements/2014/clubs-and-societies/nus-high-school-student-wins-top-prize-in-jc-and-high-school-national-coding-competition).
-- 2010. Ministry of Education, Brunei. Full ride scholarship to NUS High School, Singapore. Three recipients nationwide.
-
 {{< rawhtml >}}
+<ul class="list">
+<ol start="2020"><li>Carnegie Mellon University. Senior Leadership Recognition.</li></ol>
+<ol start="2018"><li>Carnegie Mellon University. Summer Undergraduate Research Fellowship. Research with <a href="https://db.cs.cmu.edu/">Carnegie Mellon Database Group</a> / <a href="https://www.cs.cmu.edu/~pavlo/">Professor Andy Pavlo</a>.</li></ol>
+<ol start="2016"><li>Ministry of Education, Brunei. Full ride scholarship to Carnegie Mellon University, USA. Approximately 150 scholarship recipients nationwide.</li></ol>
+<ol start="2015"><li>BruCERT ITPSS Cyber Battle (national cybersecurity CTF). <a href="https://www.itpss.com/News/2015/12102015.html">First place</a>.</li></ol>
+<ol start="2014"><li>Shing-Tung Yau High School Mathematics Awards. Semi-Finalist.</li></ol>
+<ol start="2014"><li>Singapore Science and Engineering Fair. <a href="https://www.nushigh.edu.sg/about-us/achievements/2014/academic-competitions/outstanding-achievements-at-singapore-science-and-engineering-fair-2014">Gold award</a>.</li></ol>
+<ol start="2014"><li>singpath (national high school coding competition). <a href="https://www.nushigh.edu.sg/about-us/achievements/2014/clubs-and-societies/nus-high-school-student-wins-top-prize-in-jc-and-high-school-national-coding-competition">First place</a>.</li></ol>
+<ol start="2010"><li>Ministry of Education, Brunei. Full ride scholarship to NUS High School, Singapore. Three recipients nationwide.</li></ol>
+</ul>
+
 <hr class="bw1 b--black-10">
 {{< /rawhtml >}}
 
