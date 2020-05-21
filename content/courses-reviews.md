@@ -16,10 +16,10 @@ Format of (Grade Obtained, Star Rating, Course).
 
 ## Spring 2020
 
-- ☆☆ 15-410 Operating System Design and Implementation
-- 15-780 Graduate Artificial Intelligence
-- 21-301 Combinatorics
-- 33-120 Science and Science Fiction
+- **A** ☆☆ 15-410 Operating System Design and Implementation
+- **A** 15-780 Graduate Artificial Intelligence
+- **B** 21-301 Combinatorics
+- **A** 33-120 Science and Science Fiction
 
 Other commitments: essentially nothing  
 Overall: heavy
