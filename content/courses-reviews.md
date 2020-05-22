@@ -6,7 +6,7 @@ layout: simple
 url: /courses/reviews/
 ---
 
-☆: courses which I thought were worth attending CMU for. A course without them might still be good. Opinions are free if you want them.
+☆: courses which I thought were worth attending CMU for. Roughly speaking, one star means "fundamental shift in mindset" and two stars means "transformative experience". A course without stars might still be good. Opinions are free if you want them, reach out by email.
 
 Semester difficulty ratings: {light, medium, heavy, death} corresponding to {lots of free time, routine, strict routine and some all nighters, regular all nighters}. I generally aim for medium to heavy semesters.
 
@@ -113,7 +113,7 @@ Overall: death before dropping 269, heavy after
 - **B** 15-151 Mathematical Foundations for Computer Science
 - **A** ☆ 21-242 Matrix Theory
 - **A** 76-101 Interpretation and Argument
-- **P** 99-101 Computing @ Carnegie Mellonasdas
+- **P** 99-101 Computing @ Carnegie Mellon
 
 Other commitments: desk services (Sat and Sun evenings)   
 Overall: light
