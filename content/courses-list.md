@@ -93,6 +93,8 @@ Course reviews and general semester thoughts [here](/courses/reviews/).
 
 ## Graduation
 
+Stellic transcript [here](/include/courses/wanshenl_transcript_bscs.pdf).
+
 CMU CORE
 
 - 99-101 F16
