@@ -33,6 +33,7 @@ I spend an inordinate amount of my time sleeping, reading about food, or browsin
 
 - [Kimagure Cook](https://www.youtube.com/channel/UCaak9sggUeIBPOd8iK_BXcQ): learn about differentiating and preparing fishes, learn some Japanese.
 - [Chinese Cooking Demystified](https://www.youtube.com/channel/UC54SLBnD5k5U3Q6N__UjbAw/featured): learn about the history and types of Chinese cuisine.
+- [HidaMari Cooking](https://www.youtube.com/channel/UCcp9uRaBwInxl_SZqGRksDA): really cute baking.
 
 ## Bookshelf
 
@@ -42,11 +43,13 @@ I personally prefer hardcopies of books and buy books that I consider to have hi
 
 Currently reading:
 
+- Trying to read a bunch of research papers. Book reading temporarily on hold.
+
+To be continued:
+
 - All of Statistics.  
   I like the presentation of the book and hear good things about it.  
   I'm dubious of appeals to nature and stuff like that in a number of introductory machine learning texts, so I am looking forward to reading this book's treatment of the topic. 
-
-To be continued:
 
 - The Shellcoder's Handbook.  
   On my bookshelf overseas. Got me started with basic binary exploitation. Progress was slow in high school. Should be much faster now that I've taken OS.
