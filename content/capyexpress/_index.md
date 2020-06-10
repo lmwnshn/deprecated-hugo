@@ -44,7 +44,7 @@ layout: plain
 <div class="flex flex-wrap items-center justify-center">
   <div class="pr2"><p>Reading Wikipedia news for </p></div>
   <div class="pr3"><input class="dib" type="date" id="capydate"></div>
-  <div><p><button onclick="UpdateCapyExpress()">Update</button></p></div>
+  <div><p><button onclick="UpdateCapyExpress(0)">Update</button></p></div>
 </div>
 {{< /rawhtml >}}
 
@@ -73,8 +73,8 @@ layout: plain
   }
 
   async function GetWikiFrame(jsdate) {
-    const datestring = DateFormatWiki(jsdate, "+");
-    const url = `https://en.wikipedia.org/w/api.php?action=parse&format=json&origin=*&page=Portal%3ACurrent+events%2F${datestring}&prop=text&formatversion=2`;
+    const datestring = DateFormatWiki(jsdate, "_");
+    const url = `https://en.wikipedia.org/w/api.php?action=parse&format=json&origin=*&page=Portal%3ACurrent_events%2F${datestring}&prop=text&formatversion=2`;
     const query = await fetch(url, { method: "GET" }).catch (error => console.log(error));
     return await query.json();
   }
@@ -87,6 +87,10 @@ layout: plain
 
   async function ReplaceFrame(GetFn, ParseFn, frameId, jsdate) {
     const json = await GetFn(jsdate);
+    if ("error" in json) {
+      alert("API error. The page may not exist.");
+      return;
+    }
     const parsed = new DOMParser().parseFromString(json.parse.text, "text/html");
     const data = ParseFn(parsed);
     let wfdoc = document.getElementById(frameId).contentWindow.document;
@@ -106,7 +110,7 @@ layout: plain
     let d = capydate.value.toString().split("-");
     let new_d = new Date(parseInt(d[0]), parseInt(d[1]) - 1, parseInt(d[2]) + delta_day);
     capydate.value = DateFormatInput(new_d, "-");
-    ReplaceFrame(GetWikiFrame, p => p.getElementById(DateFormatWiki(new_d, "_")), "wikiframe", new_d);
+    ReplaceFrame(GetWikiFrame, p => p.getElementsByTagName("div")[0], "wikiframe", new_d);
   }
 
   (async function() {
@@ -115,7 +119,7 @@ layout: plain
     capydate.value = DateFormatInput(today, "-");
     capydate.max = DateFormatInput(today, "-");
     UpdateCapyExpress(0);
-    ReplaceFrame(GetWikiSidebar, p => p.getElementsByTagName('div')[0], "wikisidebar", today);
+    ReplaceFrame(GetWikiSidebar, p => p.getElementsByTagName("div")[0], "wikisidebar", today);
 
     let wfc = document.getElementById("wikiframe-container");
     wfc.style.height = parseInt(document.getElementById("sidebar-container").getBoundingClientRect().height) + "px";
