@@ -30,8 +30,8 @@ layout: plain
 {{< rawhtml >}}
 <div id="capyexpress"></div>
 <div class="flex flex-wrap items-center justify-center">
-  <div class="resizer bw1 ba w-60" id="wikiframe-container"><iframe class="resized" id="wikiframe"></iframe></div>
-  <div class="bw1 ba w-40"><div class="d3-geomap" id="map"></div></div>
+  <div class="resizer bw1 ba w-60-ns" id="wikiframe-container"><iframe class="resized" id="wikiframe"></iframe></div>
+  <div class="bw1 ba w-40-ns"><div class="d3-geomap" id="map"></div></div>
 </div>
 
 <div class="flex flex-wrap items-center justify-center">
