@@ -16,6 +16,11 @@ A collection of hopefully useful stuff. No refunds, no warranties.
 - I wrote a reddit comment about the [CMU systems courses](https://old.reddit.com/r/cmu/comments/fxppfn/benefits_of_each_systems_course/fmy3ir3/) that I've taken.
 - Hopefully [useful](/tags/useful/) blog posts in general.
 
+# Random tech
+
+- [capyexpress](https://wanshenl.me/capyexpress/): different interface to reading the news.
+- [MogJDBC](https://github.com/lmwnshn/mogjdbc/): SQLite test traces over JDBC.
+
 # Notes
 
 I would like to live in a world where education is free. This is my small contribution. There are probably errors, and don't try to commercialize these somehow, but otherwise feel free to use my notes.
