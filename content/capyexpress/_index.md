@@ -94,10 +94,12 @@ layout: plain
     });
   }
 
-  async function UpdateCapyExpress() {
+  async function UpdateCapyExpress(delta_day) {
     let capydate = document.getElementById("capydate");
     let d = capydate.value.toString().split("-");
-    ReplaceWikiFrame(new Date(d[0], parseInt(d[1]) - 1, d[2]));
+    let new_d = new Date(parseInt(d[0]), parseInt(d[1]) - 1, parseInt(d[2]) + delta_day);
+    capydate.value = DateFormatInput(new_d, "-");
+    ReplaceWikiFrame(new_d);
   }
 
   (async function() {
@@ -105,8 +107,23 @@ layout: plain
     let capydate = document.getElementById("capydate");
     capydate.value = DateFormatInput(today, "-");
     capydate.max = DateFormatInput(today, "-");
-    UpdateCapyExpress();
+    UpdateCapyExpress(0);
   })();
+
+window.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented) {
+    return;
+  }
+
+  switch (event.code) {
+    case "ArrowLeft":
+      UpdateCapyExpress(-1);
+      break;
+    case "ArrowRight":
+      UpdateCapyExpress(1);
+      break;
+  }
+});
 </script>
 
 <hr class="bw1 b--black-20">
@@ -120,7 +137,7 @@ A more pleasant way to keep up with changes in the world.
 
 - The Wikipedia window is resizable.
 - The map window is zoomable (click on country to zoom in, click on empty space to zoom out).
-- Date picking.
+- Date picking, or press left and right for quick previous-day and next-day navigation.
 
 **TODO**
 
