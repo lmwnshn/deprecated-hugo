@@ -1,0 +1,9 @@
+{{ define "header" }}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="ph5">
+    {{- .Content | replaceRE "<a href=([^>]+)>" "<a class=\"link\" href=$1>" | safeHTML -}}
+  </article>
+{{ end }}
