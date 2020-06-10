@@ -82,7 +82,6 @@ layout: plain
     const json = await GetWikiFrame(jsdate);
     const parsed = new DOMParser().parseFromString(json.parse.text, "text/html");
     const data = parsed.getElementById(DateFormatWiki(jsdate, "_"));
-    let wf = document.getElementById("wikiframe");
     let wfdoc = document.getElementById("wikiframe").contentWindow.document;
     wfdoc.open();
     wfdoc.write(data.innerHTML);
@@ -91,6 +90,7 @@ layout: plain
       var href = link.href;
       href = href.replace("wanshenl.me", "en.wikipedia.org").replace("localhost:1313", "en.wikipedia.org");
       link.setAttribute("href", href);
+      link.setAttribute("target", "_blank");
     });
   }
 
