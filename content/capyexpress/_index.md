@@ -28,10 +28,17 @@ layout: plain
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
+<h6>This page embeds material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Portal:Current_events">"Portal:Current_events"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a>.</h6>
+
 <div id="capyexpress"></div>
 <div class="flex flex-wrap items-center justify-center">
   <div class="resizer bw1 ba w-60-ns" id="wikiframe-container"><iframe class="resized" id="wikiframe"></iframe></div>
-  <div class="bw1 ba w-40-ns"><div class="d3-geomap" id="map"></div></div>
+  <div class="w-40-ns">
+    <div class="flex flex-column" id="sidebar-container">
+      <div class="resizer bw1 ba" id="wikisidebar-container"><iframe class="resized" id="wikisidebar"></iframe></div>
+      <div class="bw1 ba"><div class="d3-geomap" id="map"></div></div>
+    </div>
+  </div>
 </div>
 
 <div class="flex flex-wrap items-center justify-center">
@@ -47,12 +54,6 @@ layout: plain
   var map = d3.geomap()
     .geofile('/third_party/d3-geomap/topojson/world/countries.json')
     .draw(d3.select('#map')); 
-</script>
-
-<!-- Script: wikiframe sizing. -->
-<script>
-  let wfc = document.getElementById("wikiframe-container");
-  wfc.style.height = "370px";
 </script>
 
 <!-- Script: Wikipedia current events portal. -->
@@ -78,11 +79,17 @@ layout: plain
     return await query.json();
   }
 
-  async function ReplaceWikiFrame(jsdate) {
-    const json = await GetWikiFrame(jsdate);
+  async function GetWikiSidebar() {
+    const url = `https://en.wikipedia.org/w/api.php?action=parse&format=json&origin=*&page=Portal%3ACurrent+events/Sidebar&prop=text&formatversion=2`;
+    const query = await fetch(url, { method: "GET" }).catch (error => console.log(error));
+    return await query.json();
+  }
+
+  async function ReplaceFrame(GetFn, ParseFn, frameId, jsdate) {
+    const json = await GetFn(jsdate);
     const parsed = new DOMParser().parseFromString(json.parse.text, "text/html");
-    const data = parsed.getElementById(DateFormatWiki(jsdate, "_"));
-    let wfdoc = document.getElementById("wikiframe").contentWindow.document;
+    const data = ParseFn(parsed);
+    let wfdoc = document.getElementById(frameId).contentWindow.document;
     wfdoc.open();
     wfdoc.write(data.innerHTML);
     wfdoc.close();
@@ -99,7 +106,7 @@ layout: plain
     let d = capydate.value.toString().split("-");
     let new_d = new Date(parseInt(d[0]), parseInt(d[1]) - 1, parseInt(d[2]) + delta_day);
     capydate.value = DateFormatInput(new_d, "-");
-    ReplaceWikiFrame(new_d);
+    ReplaceFrame(GetWikiFrame, p => p.getElementById(DateFormatWiki(new_d, "_")), "wikiframe", new_d);
   }
 
   (async function() {
@@ -108,6 +115,10 @@ layout: plain
     capydate.value = DateFormatInput(today, "-");
     capydate.max = DateFormatInput(today, "-");
     UpdateCapyExpress(0);
+    ReplaceFrame(GetWikiSidebar, p => p.getElementsByTagName('div')[0], "wikisidebar", today);
+
+    let wfc = document.getElementById("wikiframe-container");
+    wfc.style.height = parseInt(document.getElementById("sidebar-container").getBoundingClientRect().height) + "px";
   })();
 
 window.addEventListener("keydown", function (event) {
@@ -135,7 +146,7 @@ A more pleasant way to keep up with changes in the world.
 
 **FEATURES**
 
-- The Wikipedia window is resizable.
+- The Wikipedia windows are resizable.
 - The map window is zoomable (click on country to zoom in, click on empty space to zoom out).
 - Date picking, or press left and right for quick previous-day and next-day navigation.
 
