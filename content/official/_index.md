@@ -31,7 +31,7 @@ Wan Shen Lim is a first-year PhD student in the [Computer Science Department](ht
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
-<img src="/images/self/wanshenl-square.png"/>
+<img src="/images/self/wanshenl-2020-id.png"/>
 </div>
 {{< /rawhtml >}}
 
