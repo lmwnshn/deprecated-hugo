@@ -52,10 +52,10 @@ To be continued:
   I'm dubious of appeals to nature and stuff like that in a number of introductory machine learning texts, so I am looking forward to reading this book's treatment of the topic. 
 
 - The Shellcoder's Handbook.  
-  On my bookshelf overseas. Got me started with basic binary exploitation. Progress was slow in high school. Should be much faster now that I've taken OS.
+  On my bookshelf overseas. Got me started with basic binary exploitation. Progress was slow in high school. Should be much faster now that I've written an operating system kernel.
 
 - Practical Malware Analysis.  
-  On my bookshelf overseas. Got me started with basic reversing and detection avoidance. Progress was slow in high school. Should be much faster now that I've taken 213.
+  On my bookshelf overseas. Got me started with basic reversing and detection avoidance. Progress was slow in high school. Should be much faster now that I've taken 15-213.
 
 To be read some day:
 
