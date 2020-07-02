@@ -93,10 +93,14 @@ Wan Shen Lim is a first-year PhD student in the [Computer Science Department](ht
 
 ## Work History
 
+- 2019-08 to 2019-12.  
+  [Teaching Assistant](#teaching) at [Carnegie Mellon University](https://www.cs.cmu.edu/), USA.
 - 2019-05 to 2019-08.  
   SDE Intern at Amazon.com Services, Inc. on the [AWS Aurora](https://aws.amazon.com/rds/aurora/) (Engine) team.
 - 2018-08 to 2018-12.  
   SCS Gateskeeper (Microsoft Lounge) at [Carnegie Mellon University](https://www.cs.cmu.edu/), USA.
+- 2017-08 to 2017-12, 2018-01 to 2018-05, 2018-08 to 2018-12.  
+  [Teaching Assistant](#teaching) at [Carnegie Mellon University](https://www.cs.cmu.edu/), USA.
 - 2016-08 to 2017-05.  
   Desk Services Attendant (Housing) at [Carnegie Mellon University](https://www.cmu.edu/housing/), USA.
 - 2015-01 to 2016-04.  
