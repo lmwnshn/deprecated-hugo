@@ -31,6 +31,7 @@ Information derived from a double-entry bookkeeping Excel sheet that I've been m
 - Cost of living has an approximate min/avg/max of 50/300/500 depending on how often I cook and on how budget conscious I'm being that month. I ate out a lot during my summer at Amazon. To put these numbers into context, one meal out in Pittsburgh is about USD 10.
 - Cost of internship is something that annoys me a little about CMU. As an international student, to obtain CPT work authorization you must be enrolled in a 3-unit course and pay summer tuition rates for those three units. Domestic students have no such fees. This was a factor in my decision to pursue SURF instead of interning at a startup.
 - The nature of my rental at 5620 Woodmont St is best summarized as unfortunate. It should have cost around high 9k instead of the current low 15k. I think my main takeaway from this is to avoid living with or planning around other people, since I would like to continue otherwise trusting people by default.
+  - I have since learned that the 3/8ths of the water bill that we were going to settle later for 5620 Woodmont St comes up to a sum of 2.7k. The above figure is inaccurate. ... Yeah, this was a bad decision all around. *Updated 2020-07-15*.
 - Figures for academics will be updated when grades are posted. *Updated 2020-05-21*.
 
 ---
