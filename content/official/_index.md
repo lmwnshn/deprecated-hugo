@@ -78,7 +78,7 @@ Wan Shen Lim is a first-year PhD student in the [Computer Science Department](ht
 
 {{< rawhtml >}}
 <ul class="list">
-<ol start="2020"><li>Carnegie Mellon University. [Senior Leadership Recognition](https://www.cmu.edu/student-affairs/slice/leadership/2020-senior-leadership-recognition-recipients.png).</li></ol>
+<ol start="2020"><li>Carnegie Mellon University. <a href="https://www.cmu.edu/student-affairs/slice/leadership/2020-senior-leadership-recognition-recipients.png">Senior Leadership Recognition</a>.</li></ol>
 <ol start="2018"><li>Carnegie Mellon University. Summer Undergraduate Research Fellowship. Research with <a href="https://db.cs.cmu.edu/">Carnegie Mellon Database Group</a> / <a href="https://www.cs.cmu.edu/~pavlo/">Professor Andy Pavlo</a>.</li></ol>
 <ol start="2016"><li>Ministry of Education, Brunei. Full ride scholarship to Carnegie Mellon University, USA. Approximately 150 scholarship recipients nationwide.</li></ol>
 <ol start="2015"><li>BruCERT ITPSS Cyber Battle (national cybersecurity CTF). <a href="https://www.itpss.com/News/2015/12102015.html">First place</a>.</li></ol>
