@@ -84,13 +84,16 @@ Would love to read, doubt it will practically happen in the next decade:
 
 Have read, can recommend:
 
-- The Web Application Hacker's Handbook.  
-  On my bookshelf at home. Gentle introduction to exploiting web applications. I was able to follow along and directly apply its lessons to real-world web applications in high school.
-
 - A Teacher's Race Course.  
   This book is a little different from the others on the list.  
   It was written by a teacher of mine who has since passed away.  
   She strongly influenced my teaching beliefs and guided me towards a more positive outlook of the world. A key part of her teaching philosophy is to treat and genuinely care for students as people first and foremost. She had a reputation for being able to turn even the most misbehaved and poor-scoring set of classroom monkeys into competent students. Anyone who wants to seriously improve their teaching would probably benefit from reading this book.
+
+- Poor Economics.
+  This book gets it. I typically roll my eyes at most college student discussions of economics or poverty, but this book provides an understanding and empathetic view to questions like: "why don't the poor save more? why don't they invest in their future? why don't they use free mosquito nets? what interventions actually work?", and so on. Good and varied selection of case studies, engaging discourse. If I had read this at an earlier stage in my life, I might have gone into economics.
+
+- The Web Application Hacker's Handbook.  
+  On my bookshelf at home. Gentle introduction to exploiting web applications. I was able to follow along and directly apply its lessons to real-world web applications in high school.
 
 ## Projects
 
