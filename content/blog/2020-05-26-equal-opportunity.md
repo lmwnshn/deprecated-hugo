@@ -15,7 +15,7 @@ Some recent content that I found interesting on opportunity in general:
 Unfortunately, in practice I find that this episode of [Yes Minister](https://www.dailymotion.com/video/x5v4ri6) often reflects real life. Most people have additional motives beyond the purported mission. Two main thoughts, partially quoting the show:
 
 - Everyone thoroughly supports equal opportunity "in principle". Just as long as those principles don't involve giving anything up themselves. Then everyone narrows down to perhaps one in fifty.
-- A friend once warned me that this would probably be the most politically incorrect thing that I've said at CMU: most students here don't have much perspective when it comes how bad their problems are. We're students at one of the best universities in the world, which is selection upon selection upon selection already.
+- A friend once warned me that this would probably be the most politically incorrect thing that I've said at CMU: most students here don't have much perspective when it comes to how bad their problems are. We're students at one of the best universities in the world, which is selection upon selection upon selection already.
   - That's not to say that all students have led cushy lives. I am a little disturbed by the casual drug use and sexual abuse present in some people's histories.
   - But I'd bet that on average, our concerns are pretty trifling. It is valid to be sad about grades or relationships or what have you, but I find the "our feelings and emotions are equally valid" discourse to be off-putting and verging on distasteful when many literally starve or eat pagpag. The recent stampede for the charity of Ramadan was pretty depressing. It should be a time of general goodwill..
 
