@@ -5,15 +5,31 @@ layout: simple
 url: /useful/
 ---
 
+{{< rawhtml >}}
+<div class="flex flex-wrap items-center justify-center">
+<a class="pr3 link dim blue" href="#changelog">Changelog</a>
+<a class="pr3 link dim blue" href="#random-posts">Posts</a>
+<a class="pr3 link dim blue" href="#random-tech">Tech</a>
+<a class="pr3 link dim blue" href="#notes">Notes</a>
+<a class="pr3 link dim blue" href="#other">Other</a>
+</div>
+<hr class="bw1 b--black-20">
+{{< /rawhtml >}}
+
 A collection of hopefully useful stuff. No refunds, no warranties.
 
-# Random posts I've made
+# Changelog
 
-- Newly admitted [CMU quickstart](/blog/2017-07-15-cmu-quickstart)
-- Teaching distributed [with McD menus](/blog/2018-03-09-plans_and_planes)
-- Some [TA teaching strategies](/blog/2018-06-23-scribble) which I think worked out
-- PhD application process and visit day [thoughts](/blog/2020-03-23-visit-day)
+- 2020-09-01: started maintaining a changelog
+
+# Random posts
+
+- Newly admitted [CMU quickstart](/blog/2017-07-15-cmu-quickstart).
+- Teaching distributed [with McD menus](/blog/2018-03-09-plans_and_planes).
+- Some [TA teaching strategies](/blog/2018-06-23-scribble) which I think worked out.
+- PhD application process and visit day [thoughts](/blog/2020-03-23-visit-day).
 - I wrote a reddit comment about the [CMU systems courses](https://old.reddit.com/r/cmu/comments/fxppfn/benefits_of_each_systems_course/fmy3ir3/) that I've taken.
+- A rant on [research vs grades](https://wanshenl.me/blog/2020-06-12-win-condition/).
 - Hopefully [useful](/tags/useful/) blog posts in general.
 
 # Random tech
@@ -43,5 +59,5 @@ And yes, my handwriting is pretty bad. It is how it is.
 
 # Other
 
-- [Chickens?](/blog/2017-07-31-gpi-chicken-farming)
-- Some [Piazza](/piazza/) responses
+- [Chickens](/blog/2017-07-31-gpi-chicken-farming)?
+- Some [Piazza](/piazza/) responses.
