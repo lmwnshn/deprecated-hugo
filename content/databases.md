@@ -18,6 +18,21 @@ Keeping track of useful things that I've read.
 - Completions are added to CQ by kernel (1:1 submissions:completions, tagged with identifier) in no particular guaranteed order.
 - Most applications should just use `liburing`, but that requires kernel 5.6+. Ubuntu 20.04 LTS only ships 5.4.
 
+## Code style
+
+### Redis : The different types of code comments. [Link](http://antirez.com/news/124)
+
+- Key idea: function, design, why, teacher, checklist, guide, comments are useful. Specifically, "what" comments are not necessarily harmful.
+- Excellent example comments. 
+
+### Personal notes.
+
+- Give a component a DescriptiveName. Use DescriptiveName to refer to DescriptiveName even if repetitive. 
+- Words to be banned or strongly reconsidered prior to use:
+  - Too much potential for ambiguity, allows for too much sloppiness in coding: this, that, it.
+  - Too much potential for run-on sentences: more than two commas, semicolon (make a new sentence instead), any sentence longer than two lines of comments.
+- Just capitalize and punctuate every sentence. Much better looking.
+
 ## Performance
 
 ### sled : Great benchmarking overview and experiment checklist. [Link](https://sled.rs/perf.html).
@@ -38,7 +53,7 @@ Keeping track of useful things that I've read.
   - Disable autogroup. `sysctl kernel.sched_autogroup_enabled=0`
   - Raise minimal granularity. `sysctl kernel.sched_min_granularity_ns=5000000`
   - Relevant [Postgres](https://www.postgresql.org/message-id/50E4AAB1.9040902@optionshouse.com) discussion, also suggests tuning `sched_migration_cost`.
-- ASLR: Disable (security risk!). `sysctl kernel.randomize_va_space=0`
+- ASLR: Disable. (security risk!) `sysctl kernel.randomize_va_space=0`
 - NUMA: Disable autobalance. `sysctl kernel.numa_balancing=0`
 - Swap: Minimize. `sysctl vm.swappinness=1`
 - THP: Disable. `echo never > /sys/kernel/mm/transparent_hugepage/enabled` and `echo never > /sys/kernel/mm/transparent_hugepage/defrag`.
