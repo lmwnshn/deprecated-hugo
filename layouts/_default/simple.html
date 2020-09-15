@@ -8,7 +8,7 @@
       {{- if .Params.toc -}}
       	<div> 
           <p class="f5 b mb3">Table of Contents</p>
-          {{ .TableOfContents | replaceRE "<a href=([^>]+)>" "<a class=\"link dim blue\" href=$1>" | safeHTML }}
+          {{ .TableOfContents | replaceRE "TableOfContents" "TableOfContentsSimple" | replaceRE "<a href=([^>]+)>" "<a class=\"link dim blue\" href=$1>" | safeHTML }}
 	  <hr>
 	</div>
       {{ end }}
