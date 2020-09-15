@@ -33,6 +33,15 @@ Keeping track of useful things that I've read.
   - Too much potential for run-on sentences: more than two commas, semicolon (make a new sentence instead), any sentence longer than two lines of comments.
 - Just capitalize and punctuate every sentence. Much better looking.
 
+## Networking
+
+### Beej : Socket programming guide. [Link](https://beej.us/guide/bgnet/).
+### L5RDMA : Sockets suck. [Paper](https://db.in.tum.de/~fent/papers/Low-Latency%20Communication%20for%20Fast%20DBMS%20Using%20RDMA%20and%20Shared%20Memory.pdf), [Slides](https://db.in.tum.de/~fent/papers/Low-Latency%20Slides.pdf?lang=en).
+
+- Key idea: Networking has become a performance bottleneck; solve with RDMA/RoCE/shared memory. The paper does a cool bootstrap to the best available network tech.
+- Silo: 58k txn/s per second single-threaded (embedded), 1.5k (TCP), 2.7k (domain socket). Networking and IPC are huge bottlenecks!
+  - Corollary: when investigating claims of high performance we should check: fsync frequency, embedded vs over network.
+
 ## Performance
 
 ### sled : Great benchmarking overview and experiment checklist. [Link](https://sled.rs/perf.html).
@@ -59,12 +68,3 @@ Keeping track of useful things that I've read.
 - THP: Disable. `echo never > /sys/kernel/mm/transparent_hugepage/enabled` and `echo never > /sys/kernel/mm/transparent_hugepage/defrag`.
 - Memory allocator: Keep consistent version between benchmarks.
 - Spectre/meltdown: Keep mitigations similar between benchmarks.
-
-## Networking
-
-### Beej : Socket programming guide. [Link](https://beej.us/guide/bgnet/).
-### L5RDMA : Sockets suck. [Paper](https://db.in.tum.de/~fent/papers/Low-Latency%20Communication%20for%20Fast%20DBMS%20Using%20RDMA%20and%20Shared%20Memory.pdf), [Slides](https://db.in.tum.de/~fent/papers/Low-Latency%20Slides.pdf?lang=en).
-
-- Key idea: Networking has become a performance bottleneck; solve with RDMA/RoCE/shared memory. The paper does a cool bootstrap to the best available network tech.
-- Silo: 58k txn/s per second single-threaded (embedded), 1.5k (TCP), 2.7k (domain socket). Networking and IPC are huge bottlenecks!
-  - Corollary: when investigating claims of high performance we should check: fsync frequency, embedded vs over network.
