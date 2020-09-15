@@ -20,7 +20,7 @@ Keeping track of useful things that I've read.
 
 ## Code style
 
-### Redis : The different types of code comments. [Link](http://antirez.com/news/124)
+### Redis : The different types of code comments. [Link](http://antirez.com/news/124).
 
 - Key idea: function, design, why, teacher, checklist, guide, comments are useful. Specifically, "what" comments are not necessarily harmful.
 - Excellent example comments. 
@@ -63,7 +63,7 @@ Keeping track of useful things that I've read.
 ## Networking
 
 ### Beej : Socket programming guide. [Link](https://beej.us/guide/bgnet/).
-### L5RDMA : Sockets suck. [Paper](https://db.in.tum.de/~fent/papers/Low-Latency%20Communication%20for%20Fast%20DBMS%20Using%20RDMA%20and%20Shared%20Memory.pdf) [Slides](https://db.in.tum.de/~fent/papers/Low-Latency%20Slides.pdf?lang=en)
+### L5RDMA : Sockets suck. [Paper](https://db.in.tum.de/~fent/papers/Low-Latency%20Communication%20for%20Fast%20DBMS%20Using%20RDMA%20and%20Shared%20Memory.pdf), [Slides](https://db.in.tum.de/~fent/papers/Low-Latency%20Slides.pdf?lang=en).
 
 - Key idea: Networking has become a performance bottleneck; solve with RDMA/RoCE/shared memory. The paper does a cool bootstrap to the best available network tech.
 - Silo: 58k txn/s per second single-threaded (embedded), 1.5k (TCP), 2.7k (domain socket). Networking and IPC are huge bottlenecks!
