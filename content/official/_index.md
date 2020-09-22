@@ -58,7 +58,7 @@ Wan Shen Lim is a first-year PhD student in the [Computer Science Department](ht
 
 **Carnegie Mellon University**
 
-- Computer Science Department, Curriculum Review Committee (Spring 2020).
+- Computer Science Department, Curriculum Review Committee (Spring 2020, Fall 2021).
 - Computer Science Department, Dean's Undergraduate Student Advisory Council (Fall 2019, Spring 2020).
 
 {{< rawhtml >}}
