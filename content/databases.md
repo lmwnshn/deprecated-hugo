@@ -6,7 +6,9 @@ url: /databases/
 toc: true
 ---
 
-Keeping track of useful things that I've read.
+Keeping track of useful things that I've read or watched.
+
+Useful in the sense of "I can use this for databases".
 
 ## Async IO
 
