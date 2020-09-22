@@ -33,6 +33,47 @@ Keeping track of useful things that I've read.
   - Too much potential for run-on sentences: more than two commas, semicolon (make a new sentence instead), any sentence longer than two lines of comments.
 - Just capitalize and punctuate every sentence. Much better looking.
 
+## CppCon
+
+### 2018 Nir Understanding Optimizers: Helping the Compiler Help You. [Link](https://www.youtube.com/watch?v=8nyq8SNUTSc).
+
+- Compiler basic block = one entry, MUST run through all the code, one exit.
+  - Much easier to optimize.
+- Function inlining.
+  - Common perception: saves call overhead.
+  - Real superpower: increase basic block size.
+- Constant propagation.
+  - Gotcha: rarely happens across function boundaries.
+  - e.g., `std::find_if` won't inline the predicate function at `gcc -O2`.
+- Pass by reference.
+  - Gotcha: it can be a global, e.g. `const T &foo` where `T = bool`.
+  - Now the compiler can't optimize bools into a simple test.
+- Extracting tests from loops.
+  - Specializing the loop calling function with `<true>` and `<false>`.
+  - Pay for binary size but little else in many use-cases.
+  - e.g., if only reading bools on startup.
+- `std::variant` generates some cursed assembly.
+
+### 2019 Andrei Speed is Found in the Minds of People. [Link](https://www.youtube.com/watch?v=FJJTYQYB1JQ).
+
+- Quicksort trivia.
+  - `small_sort` threshold.
+    - 32 on VS, 16 on GNU, 30 on clang for trivial types and 6 otherwise.
+  - Know your metrics.
+    - Binary search has less comparisons than linear but takes longer.
+    - Linear search: one fail per search (less info), happy branch predictor.
+    - Binary search: one bit per search (more info), very sad branch predictor.
+    - Textbooks and research minimize `C(n)`, but entropy per comparison
+      matters more for performance.
+    - Sort algorithms are better measured with `(C(n)+S(n)+kD(n))/n`.
+  - If performance matters, integrate tests with math.
+    - e.g., `right_idx = ... + (size & 1)`.
+  - Neat tricks.
+    - Unguarded insertion sort / presence of sentinel values for speed.
+      - Reminds me of [Lemire's post](https://lemire.me/blog/2020/09/03/sentinels-can-be-faster/).
+- Good mindset to have.
+  - But if you stare into the abyss..
+
 ## Networking
 
 ### Beej : Socket programming guide. [Link](https://beej.us/guide/bgnet/).
@@ -49,6 +90,13 @@ Keeping track of useful things that I've read.
 - P state and turbo boost, see [sysbench](#sysbench--machine-tuning-tips-from-sysbench-maintainer-linkhttpswwwperconacomresourcesvideosbenchmark-noise-reduction-how-configure-your-machines-stable-results).
 - Drop the pagecache. `sync && echo 3 | sudo tee /proc/sys/vm/drop_caches`
 - Compact system-wide memory. `echo 1 | sudo tee /proc/sys/vm/compact_memory`
+
+### speice : Great list of resources that emphasizes variance over mean. [Link](https://speice.io/2019/07/high-performance-systems.html).
+
+- This is one of the best "list of links" resources that I have read.
+- "Focus first on reducing performance variance. Only look at average latency
+  once variance is at an acceptable level."
+- The rest of this blog is pretty high quality too.
 
 ### sysbench : Machine tuning tips from sysbench maintainer. [Link](https://www.percona.com/resources/videos/benchmark-noise-reduction-how-configure-your-machines-stable-results).
 
@@ -68,3 +116,4 @@ Keeping track of useful things that I've read.
 - THP: Disable. `echo never > /sys/kernel/mm/transparent_hugepage/enabled` and `echo never > /sys/kernel/mm/transparent_hugepage/defrag`.
 - Memory allocator: Keep consistent version between benchmarks.
 - Spectre/meltdown: Keep mitigations similar between benchmarks.
+
