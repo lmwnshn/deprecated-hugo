@@ -29,17 +29,6 @@ It is underrated to have friends whom you don't need to mince words for.
 
 ---
 
-I am a little sad at how one-sided some friendships are going, that I've been trying to maintain.
-But, well, if I'm honest, too many of my friendships start and restart with me worrying about someone.
-So if they have moved on, then they have moved on, and my purpose is done.
-In some ways, this is the outcome I hope for -- always encouraging people to branch out, build a stronger support network.
-
-Though, hypocritically, my network remains a single vertex.
-After two decades, though, I'm more than used to it by now.
-The serenity prayer -- I am thankful for this.
-
----
-
 When I was 13, I was told that if I survived Singapore, I would survive anywhere.
 America, in contrast, is written off as an easygoing place.
 
