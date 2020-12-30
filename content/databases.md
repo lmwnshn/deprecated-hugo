@@ -104,7 +104,7 @@ Useful in the sense of "I can use this for databases".
 
 - Key idea: "If you are not seeing stable results in your performance comparisons, you are wasting your time".
 - CPU frequency:
-  - Disable higher P states. `echo performance | sudo tee /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_governo`
+  - Disable higher P states. `echo performance | sudo tee /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_governor`
   - Disable higher C states. `(echo 0; cat) > /dev/cpu_dma_latency &`
   - Disable turbo boost. `echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo`
 - Scheduler: it depends.
@@ -114,7 +114,7 @@ Useful in the sense of "I can use this for databases".
   - Relevant [Postgres](https://www.postgresql.org/message-id/50E4AAB1.9040902@optionshouse.com) discussion, also suggests tuning `sched_migration_cost`.
 - ASLR: Disable. (security risk!) `sysctl kernel.randomize_va_space=0`
 - NUMA: Disable autobalance. `sysctl kernel.numa_balancing=0`
-- Swap: Minimize. `sysctl vm.swappinness=1`
+- Swap: Minimize. `sysctl vm.swappiness=1`
 - THP: Disable. `echo never > /sys/kernel/mm/transparent_hugepage/enabled` and `echo never > /sys/kernel/mm/transparent_hugepage/defrag`.
 - Memory allocator: Keep consistent version between benchmarks.
 - Spectre/meltdown: Keep mitigations similar between benchmarks.
