@@ -48,3 +48,29 @@ Well, no Sibyl yet exists. But perhaps it is better to preemptively stab the pic
 To want nothing and to want for nothing.
 
 So similar, and yet so different.
+
+---
+
+Update: I am pretty tilted.
+
+I owe everything that I have in life to lucky breaks and successes in education.
+I can concretely credit two educators who have made a huge impact on my life, and an additional two to whom I feel close.
+I can point to a definite moment in high school where I went from an average student to a relatively strong one.
+All of this is because of the support that they have given me, freely, beyond their job scope and in their spare time.
+
+But now that I am volunteering...
+I'm not so unreasonable as to expect other people to live my lifestyle.
+The fewer people who get sick or cry over grades, the better.
+But this feels different. From my perspective, I'm not sure if the student is even trying.
+Perhaps they are, for their culture, but it does not translate to mine.
+
+Moreover, for all the stinkeye I give effective altruism as a concept, literally anyone working at something like Target will outearn me and other entire populations of people, simply because they were born in a different country.
+Hell, there's the 445 discord. Everyone there is at least somewhat motivated to learn.
+How can I justify spending my time on one person if they are not making comparable effort?
+Can I change their life? I don't know, but I can probably change their grades.
+But if I help only people who are active about it, then my reach and impact just goes that much further.
+
+I think, when it comes down to it, I expect a reasonable amount of effort in exchange for my donated time.
+And I think this is not being met.
+
+So, unless I change my mind, it looks like my Wednesday evenings will become free once more.
