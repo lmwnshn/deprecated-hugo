@@ -14,6 +14,33 @@ Context: I entered CMU with decent programming background and meh math backgroun
 
 Format of (Grade Obtained, Star Rating, Course).
 
+# PhD
+
+PhD life is very different from undergrad life.
+
+- You take 2 courses where in undergrad you'd normally take 3-5 comparable courses.
+- Your courses should all have some aspect of research to them.
+- If you're spending most of your time on your classes, then your priorities may not be in the right place.
+
+Practically, I find that this means:
+
+- You actually have time to do the reading.
+- You even have the time to take nice notes, and really absorb the material.
+
+## Spring 2021
+
+- 15-745 Optimizing Compilers for Modern Architectures
+- 15-884 Machine Learning Systems
+- 15-996 Diversity, Equity, and Inclusion in Computer Science and Society (Pilot)
+
+Note: Still Zoom lectures, unfortunately. 745 is a nice course for learning about dataflow frameworks and traditional compiler passes, but you're probably not going to be doing anything particularly cutting-edge there. 884 is actually a quite interesting course, the equivalent version that TQ used to teach at UW is highly regarded and I can see why. This is the first time 884 is being offered here, but I would say that if it improves in future iterations then it'll be a star-worthy course. Right now, you get what you put into it, but TQ definitely knows his stuff.
+
+## Fall 2021
+
+- No classes
+
+# Undergrad
+
 ## Spring 2020
 
 - **A** ☆☆ 15-410 Operating System Design and Implementation

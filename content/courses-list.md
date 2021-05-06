@@ -8,6 +8,16 @@ url: /courses/
 
 Course reviews and general semester thoughts [here](/courses/reviews/).
 
+## Spring 2021
+
+- 15-745 Optimizing Compilers for Modern Architectures
+- 15-884 Machine Learning Systems
+- 15-996 Diversity, Equity, and Inclusion in Computer Science and Society (Pilot)
+
+## Fall 2021
+
+- No classes
+
 ## Spring 2020
 
 - 15-410 Operating System Design and Implementation
