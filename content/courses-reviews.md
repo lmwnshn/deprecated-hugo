@@ -24,7 +24,7 @@ PhD life is very different from undergrad life.
 
 Practically, I find that this means:
 
-- You actually have time to do the reading.
+- You actually have the time to do the reading.
 - You even have the time to take nice notes, and really absorb the material.
 
 ## Spring 2021
